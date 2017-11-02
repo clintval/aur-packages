@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+packages=(
+  'artemis'
+  'bcl2fastq-rpm'
+  'bedtools-git'
+  'fastq_screen'
+  'mosdepth'
+  'pmonitor-git'
+  'vt')
+
+for package in "${packages[@]}"; do
+  git remote add -f "${package}" ssh://aur@aur.archlinux.org/"${package}".git
+done
