@@ -5,6 +5,7 @@ packages=(
   'bcl2fastq-rpm'
   'bedtools-git'
   'fastq_screen'
+  'kraken'
   'mosdepth'
   'pmonitor-git'
   'vt')
