@@ -9,6 +9,7 @@ packages=(
   'kraken'
   'mosdepth'
   'pmonitor-git'
+  'python-declxml-git'
   'vt')
 
 for package in "${packages[@]}"; do
