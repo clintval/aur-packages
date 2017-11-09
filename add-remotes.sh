@@ -9,6 +9,7 @@ packages=(
   'kraken'
   'mosdepth'
   'pmonitor-git'
+  'python-declxml'
   'python-declxml-git'
   'vt')
 
