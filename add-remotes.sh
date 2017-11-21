@@ -11,7 +11,7 @@ packages=(
   'pmonitor-git'
   'python-declxml'
   'python-declxml-git'
-  'verticalize'
+  'verticalize-git'
   'vt')
 
 for package in "${packages[@]}"; do
