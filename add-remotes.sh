@@ -11,6 +11,7 @@ packages=(
   'pmonitor-git'
   'python-declxml'
   'python-declxml-git'
+  'vcfanno'
   'vcflib-git'
   'verticalize-git'
   'vt')
