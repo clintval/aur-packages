@@ -1,0 +1,4 @@
+.gradle/
+*.tar.gz
+pkg/
+src/

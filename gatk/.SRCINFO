@@ -1,0 +1,17 @@
+pkgbase = gatk
+	pkgdesc = Genome Analysis Toolkit - Variant Discovery in High-Throughput Sequencing Data
+	pkgver = 4.6
+	pkgrel = 1
+	url = https://software.broadinstitute.org/gatk/
+	arch = any
+	license = BSD3
+	depends = bash
+	depends = java-runtime>=8
+	depends = gradle
+	provides = gatk
+	conflicts = gatk
+	source = https://github.com/broadinstitute/gatk/archive/4.beta.6.tar.gz
+	md5sums = caff053f04974044e06cd5fc8e344d7c
+
+pkgname = gatk
+
