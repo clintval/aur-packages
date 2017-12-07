@@ -5,6 +5,7 @@ packages=(
   'bcl2fastq-rpm'
   'bedtools-git'
   'fastq_screen'
+  'freebayes'
   'gatk'
   'jellyfish-pythonbound'
   'kraken'
