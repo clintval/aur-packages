@@ -15,6 +15,7 @@ packages=(
   'python-declxml-git'
   'qualimap'
   'snakemake-git'
+  'snpeff'
   'vcfanno'
   'vcflib-git'
   'verticalize-git'
