@@ -13,6 +13,7 @@ packages=(
   'pmonitor-git'
   'python-declxml'
   'python-declxml-git'
+  'python-snakemake-git'
   'qualimap'
   'vcfanno'
   'vcflib-git'
