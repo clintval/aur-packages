@@ -13,6 +13,7 @@ packages=(
   'pmonitor-git'
   'python-declxml'
   'python-declxml-git'
+  'python-fastcluster'
   'qualimap'
   'snakemake-git'
   'snpeff'
