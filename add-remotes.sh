@@ -14,6 +14,7 @@ packages=(
   'python-declxml'
   'python-declxml-git'
   'python-fastcluster'
+  'python-polo'ss
   'qualimap'
   'snakemake-git'
   'snpeff'
