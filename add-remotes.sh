@@ -10,6 +10,7 @@ packages=(
   'genometools'
   'igvtools'
   'jellyfish-pythonbound'
+  'libmaus'
   'kraken'
   'mosdepth'
   'pmonitor-git'
