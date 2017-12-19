@@ -22,6 +22,7 @@ packages=(
   'snpeff'
   'vcfanno'
   'vcflib-git'
+  'verifybamid'
   'verticalize-git'
   'vt')
 
