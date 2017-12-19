@@ -4,6 +4,7 @@ packages=(
   'artemis'
   'bcl2fastq-rpm'
   'bedtools-git'
+  'biobambam'
   'fastq_screen'
   'freebayes'
   'gatk'
