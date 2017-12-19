@@ -18,6 +18,8 @@ packages=(
   'python-fastcluster'
   'python-polo'
   'python-pydna'
+  'python-pyvcf'
+  'python-pyvcf-git'
   'python-spectra'
   'qualimap'
   'snakemake-git'
