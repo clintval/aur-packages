@@ -7,6 +7,7 @@ packages=(
   'fastq_screen'
   'freebayes'
   'gatk'
+  'igvtools'
   'jellyfish-pythonbound'
   'kraken'
   'mosdepth'
