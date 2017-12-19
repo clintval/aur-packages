@@ -19,6 +19,8 @@ packages=(
   'python-declxml-git'
   'python-fastcluster'
   'python-polo'
+  'python-pybedtools'
+  'python-pybedtools-git'
   'python-pydna'
   'python-pyvcf'
   'python-pyvcf-git'
