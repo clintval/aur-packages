@@ -7,6 +7,7 @@ packages=(
   'fastq_screen'
   'freebayes'
   'gatk'
+  'genometools'
   'igvtools'
   'jellyfish-pythonbound'
   'kraken'
