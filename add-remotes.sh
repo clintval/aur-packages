@@ -26,6 +26,7 @@ packages=(
   'python-pyvcf-git'
   'python-spectra'
   'qualimap'
+  'r-cran-r6'
   'r-cran-viridislite'
   'snakemake-git'
   'snpeff'
