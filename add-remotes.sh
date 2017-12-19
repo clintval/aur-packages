@@ -20,6 +20,7 @@ packages=(
   'python-declxml'
   'python-declxml-git'
   'python-fastcluster'
+  'pytohn-logzero'
   'python-lzstring'
   'python-multiqc'
   'python-polo'
