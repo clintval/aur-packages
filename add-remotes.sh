@@ -20,6 +20,8 @@ packages=(
   'python-declxml'
   'python-declxml-git'
   'python-fastcluster'
+  'python-lzstring'
+  'python-multiqc'
   'python-polo'
   'python-pybedtools'
   'python-pybedtools-git'
