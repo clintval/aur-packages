@@ -6,6 +6,8 @@ packages=(
   'bedtools-git'
   'biobambam'
   'fastq_screen'
+  'fgbio'
+  'fgbio-git'
   'freebayes'
   'gatk'
   'genometools'
