@@ -39,6 +39,7 @@ packages=(
   'python-rednose'
   'python-spectra'
   'python-termstyle'
+  'python-typechecks'
   'qualimap'
   'r-cran-r6'
   'r-cran-viridislite'
