@@ -22,6 +22,7 @@ packages=(
   'python-declxml-git'
   'python-fastcluster'
   'python-gffutils'
+  'python-gtfparse'
   'python-logzero'
   'python-lzstring'
   'python-memoized-property'
