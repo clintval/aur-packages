@@ -24,6 +24,7 @@ packages=(
   'python-gffutils'
   'python-logzero'
   'python-lzstring'
+  'python-memoized-property'
   'python-multiqc'
   'python-polo'
   'python-progressbar33'
