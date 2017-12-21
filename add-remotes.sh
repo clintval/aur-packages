@@ -44,6 +44,7 @@ packages=(
   'python-serializable'
   'python-spectra'
   'python-termstyle'
+  'python-tinytimer'
   'python-typechecks'
   'qualimap'
   'r-cran-r6'
