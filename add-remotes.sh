@@ -31,6 +31,7 @@ packages=(
   'python-pyvcf'
   'python-pyvcf-git'
   'python-spectra'
+  'python-termstyle'
   'qualimap'
   'r-cran-r6'
   'r-cran-viridislite'
