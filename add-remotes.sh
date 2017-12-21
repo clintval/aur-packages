@@ -17,6 +17,7 @@ packages=(
   'kraken'
   'mosdepth'
   'pmonitor-git'
+  'python-datacache'
   'python-declxml'
   'python-declxml-git'
   'python-fastcluster'
