@@ -30,6 +30,7 @@ packages=(
   'python-pydna'
   'python-pyvcf'
   'python-pyvcf-git'
+  'python-rednose'
   'python-spectra'
   'python-termstyle'
   'qualimap'
