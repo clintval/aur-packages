@@ -26,6 +26,7 @@ packages=(
   'python-polo'
   'python-pybedtools'
   'python-pybedtools-git'
+  'python-pybwa'
   'python-pydna'
   'python-pyvcf'
   'python-pyvcf-git'
