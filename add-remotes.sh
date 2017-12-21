@@ -34,6 +34,7 @@ packages=(
   'python-pybigwig'
   'python-pybwa'
   'python-pydna'
+  'python-pyensembl'
   'python-pyentrezid'
   'python-pygeno'
   'python-pyupset'
