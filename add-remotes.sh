@@ -41,6 +41,7 @@ packages=(
   'python-pyvcf-git'
   'python-radadb'
   'python-rednose'
+  'python-serializable'
   'python-spectra'
   'python-termstyle'
   'python-typechecks'
