@@ -33,6 +33,7 @@ packages=(
   'python-pyupset'
   'python-pyvcf'
   'python-pyvcf-git'
+  'python-radadb'
   'python-rednose'
   'python-spectra'
   'python-termstyle'
