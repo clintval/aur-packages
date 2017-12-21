@@ -28,6 +28,7 @@ packages=(
   'python-pybedtools-git'
   'python-pybwa'
   'python-pydna'
+  'python-pyentrezid'
   'python-pyvcf'
   'python-pyvcf-git'
   'python-rednose'
