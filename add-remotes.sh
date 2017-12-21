@@ -25,6 +25,7 @@ packages=(
   'python-lzstring'
   'python-multiqc'
   'python-polo'
+  'python-progressbar33'
   'python-pybedtools'
   'python-pybedtools-git'
   'python-pybigwig'
