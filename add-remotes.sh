@@ -50,6 +50,7 @@ packages=(
   'qualimap'
   'r-cran-r6'
   'r-cran-viridislite'
+  'rtg-tools'
   'snakemake-git'
   'snpeff'
   'vcfanno'
