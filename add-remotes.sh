@@ -30,6 +30,7 @@ packages=(
   'python-pybwa'
   'python-pydna'
   'python-pyentrezid'
+  'python-pygeno'
   'python-pyupset'
   'python-pyvcf'
   'python-pyvcf-git'
