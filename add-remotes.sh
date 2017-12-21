@@ -29,6 +29,7 @@ packages=(
   'python-pybwa'
   'python-pydna'
   'python-pyentrezid'
+  'python-pyupset'
   'python-pyvcf'
   'python-pyvcf-git'
   'python-rednose'
