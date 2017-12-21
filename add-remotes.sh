@@ -26,6 +26,7 @@ packages=(
   'python-polo'
   'python-pybedtools'
   'python-pybedtools-git'
+  'python-pybigwig'
   'python-pybwa'
   'python-pydna'
   'python-pyentrezid'
