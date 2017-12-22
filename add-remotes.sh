@@ -17,6 +17,7 @@ packages=(
   'kraken'
   'mosdepth'
   'pmonitor-git'
+  'python-curses-menu'
   'python-datacache'
   'python-declxml'
   'python-declxml-git'
