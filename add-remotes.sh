@@ -17,7 +17,7 @@ packages=(
   'kraken'
   'mosdepth'
   'pmonitor-git'
-  'pytohn-codecov'
+  'python-codecov'
   'python-curses-menu'
   'python-datacache'
   'python-declxml'
