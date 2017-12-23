@@ -28,6 +28,7 @@ packages=(
   'python-lzstring'
   'python-memoized-property'
   'python-multiqc'
+  'python-nose-progressive'
   'python-polo'
   'python-progressbar33'
   'python-pybedtools'
