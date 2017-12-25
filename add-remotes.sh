@@ -2,6 +2,7 @@
 
 packages=(
   'artemis'
+  'bbmap'
   'bcl2fastq-rpm'
   'bedtools-git'
   'biobambam'
