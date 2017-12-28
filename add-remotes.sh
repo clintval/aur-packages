@@ -15,6 +15,7 @@ packages=(
   'igvtools'
   'jellyfish-pythonbound'
   'libmaus'
+  'lollipops'
   'kraken'
   'mosdepth'
   'pmonitor-git'
