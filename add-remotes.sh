@@ -25,6 +25,7 @@ packages=(
   'python-declxml'
   'python-declxml-git'
   'python-fastcluster'
+  'python-gff3'
   'python-gffutils'
   'python-gtfparse'
   'python-logzero'
