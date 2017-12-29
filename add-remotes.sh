@@ -55,6 +55,8 @@ packages=(
   'python-typechecks'
   'python-varcode'
   'qualimap'
+  'r-cran-cli'
+  'r-cran-corpus'
   'r-cran-r6'
   'r-cran-utf8'
   'r-cran-viridislite'
