@@ -56,6 +56,7 @@ packages=(
   'python-varcode'
   'qualimap'
   'r-cran-r6'
+  'r-cran-utf8'
   'r-cran-viridislite'
   'rtg-tools'
   'snakemake-git'
