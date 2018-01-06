@@ -50,6 +50,7 @@ packages=(
   'python-pyvcf-git'
   'python-radadb'
   'python-rednose'
+  'python-sample-sheet'
   'python-sercol'
   'python-serializable'
   'python-spectra'
