@@ -53,6 +53,7 @@ packages=(
   'python-sample-sheet'
   'python-sercol'
   'python-serializable'
+  'python-slackclient'
   'python-spectra'
   'python-termstyle'
   'python-tinytimer'
