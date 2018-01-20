@@ -57,6 +57,7 @@ packages=(
   'python-spectra'
   'python-termstyle'
   'python-tinytimer'
+  'python-toytree'
   'python-typechecks'
   'python-varcode'
   'qualimap'
