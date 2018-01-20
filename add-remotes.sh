@@ -19,6 +19,7 @@ packages=(
   'lollipops'
   'kraken'
   'mosdepth'
+  'mosdepth-bin'
   'pmonitor-git'
   'python-codecov'
   'python-curses-menu'
