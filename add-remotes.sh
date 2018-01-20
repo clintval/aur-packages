@@ -57,6 +57,7 @@ packages=(
   'python-spectra'
   'python-termstyle'
   'python-tinytimer'
+  'python-toyplot'
   'python-toytree'
   'python-typechecks'
   'python-varcode'
