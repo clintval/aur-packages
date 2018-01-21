@@ -73,6 +73,7 @@ packages=(
   'rtg-tools'
   'snakemake-git'
   'snpeff'
+  'ucsc-kent-genome-tools'
   'vcfanno'
   'vcflib-git'
   'verifybamid'
