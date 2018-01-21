@@ -6,6 +6,7 @@ packages=(
   'bcl2fastq-rpm'
   'bedtools-git'
   'biobambam'
+  'centrifuge'
   'csvtk'
   'fastq_screen'
   'fgbio'
