@@ -7,6 +7,7 @@ packages=(
   'bedtools-git'
   'biobambam'
   'centrifuge'
+  'centrifuge-bin'
   'csvtk'
   'fastq_screen'
   'fgbio'
