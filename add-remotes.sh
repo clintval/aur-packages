@@ -26,6 +26,7 @@ packages=(
   'python-datacache'
   'python-declxml'
   'python-declxml-git'
+  'python-ete'
   'python-fastcluster'
   'python-gff3'
   'python-gffutils'
