@@ -76,7 +76,7 @@ packages=(
   'snakemake-git'
   'snpeff'
   'ucsc-kent-genome-tools'
-  'vcfanno'
+  'vcfanno-bin'
   'vcflib-git'
   'verifybamid'
   'verticalize-git'
