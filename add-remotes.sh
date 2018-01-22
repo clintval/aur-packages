@@ -19,6 +19,7 @@ packages=(
   'jellyfish-pythonbound'
   'libmaus'
   'lollipops'
+  'lollipops-bin'
   'kraken'
   'mosdepth'
   'mosdepth-bin'
