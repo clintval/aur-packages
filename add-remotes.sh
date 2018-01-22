@@ -52,7 +52,7 @@ packages=(
   'python-pyupset'
   'python-pyvcf'
   'python-pyvcf-git'
-  'python-radadb'
+  'python-rabadb'
   'python-rednose'
   'python-sample-sheet'
   'python-sercol'
