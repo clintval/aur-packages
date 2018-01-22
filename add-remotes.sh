@@ -9,6 +9,7 @@ packages=(
   'centrifuge'
   'centrifuge-bin'
   'csvtk'
+  'csvtk-bin'
   'fastq_screen'
   'fgbio'
   'fgbio-git'
