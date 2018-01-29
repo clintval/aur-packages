@@ -26,6 +26,7 @@ packages=(
   'mosdepth-bin'
   'pmonitor-git'
   'python-codecov'
+  'python-cruzdb'
   'python-curses-menu'
   'python-datacache'
   'python-declxml'
