@@ -28,6 +28,7 @@ packages=(
   'python-codecov'
   'python-cruzdb'
   'python-curses-menu'
+  'python-cyvcf2'
   'python-datacache'
   'python-declxml'
   'python-declxml-git'
