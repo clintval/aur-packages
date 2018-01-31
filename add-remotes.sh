@@ -39,6 +39,7 @@ packages=(
   'python-gff3'
   'python-gffutils'
   'python-gtfparse'
+  'python-hgvs'
   'python-logzero'
   'python-lzstring'
   'python-memoized-property'
