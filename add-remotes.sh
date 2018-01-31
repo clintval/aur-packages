@@ -35,6 +35,7 @@ packages=(
   'python-declxml-git'
   'python-ete'
   'python-fastcluster'
+  'python-geneimpacts'
   'python-gff3'
   'python-gffutils'
   'python-gtfparse'
