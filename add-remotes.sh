@@ -85,6 +85,7 @@ packages=(
   'ucsc-kent-genome-tools'
   'vcfanno-bin'
   'vcflib-git'
+  'vcf-validator'
   'verifybamid'
   'verticalize-git'
   'vt')
