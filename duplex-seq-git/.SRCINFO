@@ -1,6 +1,6 @@
 pkgbase = duplex-seq-git
 	pkgdesc = duplex-seq
-	pkgver = 1.008.r55.g36e6c62
+	pkgver = 1.008.r63.gdcf7b98
 	pkgrel = 1
 	url = https://github.com/twinstrandbio/duplex-seq
 	arch = x86_64

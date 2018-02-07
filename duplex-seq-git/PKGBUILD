@@ -5,12 +5,12 @@ _bwa_ver=0.7.15
 _scala_ver=2.12
 _vardictjava_ver=1.5.1
 _picard_ver=2.10.6
-_fgbio_ver=0.7.12
+_fgbio_ver=0.4.0
 
 _vardict_commit=328e00a1166abe4406020a9af12ca816a93517be
 
 pkgname='duplex-seq-git'
-pkgver=1.008.r55.g36e6c62
+pkgver=1.008.r63.gdcf7b98
 pkgrel=1
 pkgdesc='duplex-seq'
 arch=('x86_64')
