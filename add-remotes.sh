@@ -88,7 +88,8 @@ packages=(
   'vcf-validator'
   'verifybamid'
   'verticalize-git'
-  'vt')
+  'vt'
+  'wgsim-git')
 
 for package in "${packages[@]}"; do
   git remote add -f "${package}" ssh://aur@aur.archlinux.org/"${package}".git
