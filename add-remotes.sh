@@ -6,6 +6,7 @@ packages=(
   'bcl2fastq-bin'
   'bedtools-git'
   'biobambam'
+  'biopieces'
   'centrifuge'
   'centrifuge-bin'
   'csvtk'
