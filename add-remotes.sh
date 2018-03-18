@@ -33,6 +33,7 @@ packages=(
   'python-curses-menu'
   'python-cyvcf2'
   'python-datacache'
+  'python-datrie'
   'python-declxml'
   'python-declxml-git'
   'python-ete'
