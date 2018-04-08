@@ -49,6 +49,7 @@ packages=(
   'python-memoized-property'
   'python-multiqc'
   'python-nose-progressive'
+  'python-nucleus'
   'python-ordered-set'
   'python-polo'
   'python-progressbar33'
