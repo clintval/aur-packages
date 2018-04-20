@@ -82,6 +82,7 @@ packages=(
   'r-cran-cli'
   'r-cran-corpus'
   'r-cran-pillar'
+  'r-cran-plyr'
   'r-cran-r6'
   'r-cran-utf8'
   'r-cran-viridislite'
