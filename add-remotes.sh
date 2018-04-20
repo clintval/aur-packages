@@ -86,6 +86,7 @@ packages=(
   'r-cran-dichromat'
   'r-cran-gtable'
   'r-cran-labeling'
+  'r-cran-lubridate'
   'r-cran-munsell'
   'r-cran-pillar'
   'r-cran-plyr'
