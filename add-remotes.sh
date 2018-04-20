@@ -11,6 +11,7 @@ packages=(
   'centrifuge-bin'
   'csvtk'
   'csvtk-bin'
+  'dwgsim'
   'dwgsim-git'
   'fastq_screen'
   'fgbio'
