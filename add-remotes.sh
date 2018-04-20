@@ -51,6 +51,7 @@ packages=(
   'python-nose-progressive'
   'python-nucleus'
   'python-ordered-set'
+  'python-palettable'
   'python-polo'
   'python-progressbar33'
   'python-pybedtools'
