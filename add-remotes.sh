@@ -50,6 +50,7 @@ packages=(
   'python-memoized-property'
   'python-multiqc'
   'python-nose-progressive'
+  'python-notifiers'
   'python-nucleus'
   'python-ordered-set'
   'python-palettable'
