@@ -97,6 +97,7 @@ packages=(
   'rtg-tools'
   'snakemake-git'
   'snpeff'
+  'termenu-git'
   'ucsc-kent-genome-tools'
   'vcfanno-bin'
   'vcflib-git'
