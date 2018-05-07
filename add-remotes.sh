@@ -19,6 +19,7 @@ packages=(
   'freebayes'
   'gatk'
   'genometools'
+  'graphpath'
   'hosts'
   'igvtools'
   'jellyfish-pythonbound'
