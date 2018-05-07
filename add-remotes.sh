@@ -7,6 +7,7 @@ packages=(
   'bedtools-git'
   'biobambam'
   'biopieces'
+  'catt'
   'centrifuge'
   'centrifuge-bin'
   'csvtk'
