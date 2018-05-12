@@ -35,6 +35,7 @@ packages=(
   'python-crimson'
   'python-cruzdb'
   'python-curses-menu'
+  'python-custom_inherit'
   'python-cyvcf2'
   'python-datacache'
   'python-datrie'
