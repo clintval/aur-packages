@@ -52,6 +52,7 @@ packages=(
   'python-lzstring'
   'python-memoized-property'
   'python-multiqc'
+  'python-nimfa'
   'python-nose-progressive'
   'python-notifiers'
   'python-nucleus'
