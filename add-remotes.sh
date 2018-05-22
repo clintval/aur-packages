@@ -41,6 +41,7 @@ packages=(
   'python-datrie'
   'python-declxml'
   'python-declxml-git'
+  'python-distance'
   'python-ete'
   'python-fastcluster'
   'python-geneimpacts'
