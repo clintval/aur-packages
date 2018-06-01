@@ -1,0 +1,107 @@
+# Maintainer: Clint Valentine <clint@twinstrandbio.com>
+
+_bwakit_ver=0.7.12
+_bwa_ver=0.7.15
+_scala_ver=2.12
+_vardictjava_ver=1.5.1
+_picard_ver=2.10.6
+_fgbio_ver=0.4.0
+
+_vardict_commit=328e00a1166abe4406020a9af12ca816a93517be
+
+pkgname='duplex-seq-git'
+pkgver=1.008.r63.gdcf7b98
+pkgrel=1
+pkgdesc='duplex-seq'
+arch=('x86_64')
+url="https://github.com/twinstrandbio/duplex-seq"
+license=('custom:twinstrand')
+depends=('git-lfs' 'jre8-openjdk>=8' 'r' 'scala' 'sbt')
+provides=('duplex-seq-git')
+conflicts=('duplex-seq-git')
+source=(
+  twinstrand-pipeline.sh
+  twinstrand-tools.sh
+  bwakit-"${_bwakit_ver}"_x64-linux.tar.bz2::http://sourceforge.net/projects/bio-bwa/files/bwakit/bwakit-"${_bwakit_ver}"_x64-linux.tar.bz2/download
+  git+https://github.com/lh3/bwa.git#tag=v"${_bwa_ver}"
+  git+https://github.com/AstraZeneca-NGS/VarDict.git#commit="${_vardict_commit}"
+  git+https://github.com/AstraZeneca-NGS/VarDictJava.git#tag=v"${_vardictjava_ver}"
+  git+https://github.com/broadinstitute/picard.git#tag="${_picard_ver}"
+  git+https://github.com/twinstrandbio/duplex-seq.git
+)
+md5sums=('ef885cbb37dab976b85b02c56cda0392'
+         '444e28cad5d4ef097e8e15597b2f9ba5'
+         '2ee18698a414f401f012fcd5cbb0bf86'
+         'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP')
+
+pkgver() {
+  cd duplex-seq
+  git describe --long --tags | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
+}
+
+prepare() {
+  cd VarDictJava
+  git submodule init
+  git config submodule.VarDict.url "${srcdir}"/VarDict
+  git submodule update
+  cd ..
+
+  # Git LFS fails when used as a 'source': https://aur.archlinux.org/packages/fgbio-git/
+  if [[ -d fgbio ]]; then
+    cd fgbio && git pull;
+  else
+    git clone --depth 1 --branch "${_fgbio_ver}" https://github.com/fulcrumgenomics/fgbio.git
+  fi
+}
+
+build() {
+
+  echo "==> Building: VarDictJava" && cd "${srcdir}"/VarDictJava
+  ./gradlew installApp
+
+  echo "==> Building: bwa" && cd "${srcdir}"/bwa
+  make -j
+
+  echo "==> Building: picard" && cd "${srcdir}"/picard
+  ./gradlew shadowJar
+
+  echo "==> Building: fgbio" && cd "${srcdir}"/fgbio
+  sbt assembly
+
+  echo "==> Building: duplex-seq" && cd "${srcdir}"/duplex-seq
+  sbt assembly
+}
+
+package() {
+  install -Dm755 twinstrand-pipeline.sh "${pkgdir}"/usr/bin/twinstrand-pipeline
+  install -Dm755 twinstrand-tools.sh "${pkgdir}"/usr/bin/twinstrand-tools
+
+  mkdir -p "${pkgdir}"/usr/share/java/duplex-seq/packages
+
+  cp -r \
+    "${srcdir}"/bwa \
+    "${pkgdir}"/usr/share/java/duplex-seq/packages/bwa-"${_bwa_ver}"
+  cp -r \
+    "${srcdir}"/bwa.kit \
+    "${pkgdir}"/usr/share/java/duplex-seq/packages/bwa.kit
+  cp -r \
+    "${srcdir}"/VarDictJava \
+    "${pkgdir}"/usr/share/java/duplex-seq/packages/VarDictJava
+
+  install -Dm655 \
+    "${srcdir}"/picard/build/libs/picard.jar \
+    "${pkgdir}"/usr/share/java/duplex-seq/packages/picard.jar
+  install -Dm655 \
+    "${srcdir}"/fgbio/target/scala-"${_scala_ver}"/fgbio-*.jar \
+    "${pkgdir}"/usr/share/java/duplex-seq/packages/fgbio.jar
+  install -Dm655 \
+    "${srcdir}"/duplex-seq/pipelines/target/scala-"${_scala_ver}"/twinstrand-pipeline.jar \
+    "${pkgdir}"/usr/share/java/duplex-seq/packages/twinstrand-pipeline.jar
+  install -Dm655 \
+    "${srcdir}"/duplex-seq/tools/target/scala-"${_scala_ver}"/twinstrand-tools.jar \
+    "${pkgdir}"/usr/share/java/duplex-seq/packages/twinstrand-tools.jar
+
+  install -Dm755 \
+    "${pkgdir}"/usr/share/java/duplex-seq/packages/bwa-"${_bwa_ver}"/bwa \
+    "${pkgdir}"/usr/share/java/duplex-seq/packages/bwa
+}

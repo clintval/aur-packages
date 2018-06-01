@@ -1,0 +1,13 @@
+pkgbase = gvcftools-bin
+	pkgdesc = Tools to create and analyze bioinformatics gVCF files
+	pkgver = 0.16
+	pkgrel = 1
+	url = https://sites.google.com/site/gvcftools/
+	arch = any
+	provides = gvcftools
+	conflicts = gvcftools
+	source = gvcftools-0.16.tar.gz
+	md5sums = 5c9e33a9752f0049daf0c2687d3f8e96
+
+pkgname = gvcftools-bin
+

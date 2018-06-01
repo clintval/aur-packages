@@ -1,0 +1,21 @@
+pkgbase = python-logzero
+	pkgdesc = Robust and effective logging for Python 2 and 3
+	pkgver = 1.5.0
+	pkgrel = 2
+	url = https://pypi.python.org/pypi/logzero
+	arch = any
+	license = MIT
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = python2
+	makedepends = python2-setuptools
+	options = !emptydirs
+	source = python-logzero-1.5.0.tar.gz::https://pypi.python.org/packages/27/df/a131acda0beb1b38896668c1313d749cdc417cb0b6ea8b7118326602a435/logzero-1.5.0.tar.gz
+	sha256sums = 34fa1e2e436dfa9f37e5ff8750e932bafe0c5abbb42e1f669e4cf5ce1f179142
+
+pkgname = python-logzero
+	depends = python
+
+pkgname = python2-logzero
+	depends = python2
+
