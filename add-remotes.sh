@@ -31,6 +31,7 @@ packages=(
   'mosdepth'
   'mosdepth-bin'
   'pmonitor-git'
+  'python-adjusttext'
   'python-codecov'
   'python-crimson'
   'python-cruzdb'
