@@ -64,6 +64,7 @@ packages=(
   'python-nucleus'
   'python-ordered-set'
   'python-palettable'
+  'python-pastel'
   'python-polo'
   'python-progressbar33'
   'python-pybedtools'
