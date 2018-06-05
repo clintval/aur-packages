@@ -65,6 +65,7 @@ packages=(
   'python-ordered-set'
   'python-palettable'
   'python-pastel'
+  'python-poetry'
   'python-polo'
   'python-progressbar33'
   'python-pybedtools'
