@@ -75,6 +75,7 @@ packages=(
   'python-pyensembl'
   'python-pyentrezid'
   'python-pygeno'
+  'python-pylev'
   'python-pyupset'
   'python-pyvcf'
   'python-pyvcf-git'
