@@ -34,6 +34,7 @@ packages=(
   'python-adjusttext'
   'python-bcbio-gff'
   'python-cachy'
+  'python-cleo'
   'python-codecov'
   'python-crimson'
   'python-cruzdb'
