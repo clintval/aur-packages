@@ -33,6 +33,7 @@ packages=(
   'pmonitor-git'
   'python-adjusttext'
   'python-bcbio-gff'
+  'python-cachy'
   'python-codecov'
   'python-crimson'
   'python-cruzdb'
