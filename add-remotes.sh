@@ -53,6 +53,7 @@ packages=(
   'python-gffutils'
   'python-gtfparse'
   'python-hgvs'
+  'python-lazy-property'
   'python-logzero'
   'python-lzstring'
   'python-memoized-property'
